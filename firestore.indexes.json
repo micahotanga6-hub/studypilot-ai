@@ -1,0 +1,56 @@
+{
+  "indexes": [
+    { "collectionGroup": "documents", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "uid", "order": "ASCENDING" },
+      { "fieldPath": "createdAtMs", "order": "DESCENDING" }
+    ]},
+    { "collectionGroup": "summaries", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "uid", "order": "ASCENDING" },
+      { "fieldPath": "createdAtMs", "order": "DESCENDING" }
+    ]},
+    { "collectionGroup": "flashcardDecks", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "uid", "order": "ASCENDING" },
+      { "fieldPath": "createdAtMs", "order": "DESCENDING" }
+    ]},
+    { "collectionGroup": "flashcards", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "uid", "order": "ASCENDING" },
+      { "fieldPath": "deckId", "order": "ASCENDING" },
+      { "fieldPath": "order", "order": "ASCENDING" }
+    ]},
+    { "collectionGroup": "quizzes", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "uid", "order": "ASCENDING" },
+      { "fieldPath": "createdAtMs", "order": "DESCENDING" }
+    ]},
+    { "collectionGroup": "quizAttempts", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "uid", "order": "ASCENDING" },
+      { "fieldPath": "createdAtMs", "order": "DESCENDING" }
+    ]},
+    { "collectionGroup": "studyPlans", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "uid", "order": "ASCENDING" },
+      { "fieldPath": "createdAtMs", "order": "DESCENDING" }
+    ]},
+    { "collectionGroup": "studyTasks", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "uid", "order": "ASCENDING" },
+      { "fieldPath": "planId", "order": "ASCENDING" },
+      { "fieldPath": "date", "order": "ASCENDING" }
+    ]},
+    { "collectionGroup": "tutorConversations", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "uid", "order": "ASCENDING" },
+      { "fieldPath": "createdAtMs", "order": "DESCENDING" }
+    ]},
+    { "collectionGroup": "tutorMessages", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "uid", "order": "ASCENDING" },
+      { "fieldPath": "conversationId", "order": "ASCENDING" },
+      { "fieldPath": "createdAtMs", "order": "ASCENDING" }
+    ]},
+    { "collectionGroup": "studySessions", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "uid", "order": "ASCENDING" },
+      { "fieldPath": "createdAtMs", "order": "DESCENDING" }
+    ]},
+    { "collectionGroup": "paymentRecords", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "uid", "order": "ASCENDING" },
+      { "fieldPath": "createdAtMs", "order": "DESCENDING" }
+    ]}
+  ],
+  "fieldOverrides": []
+}
